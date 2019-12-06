@@ -74,7 +74,7 @@ margin: 10.5px 0 0 14px;
 }
 
 .duio-xiao-login{
-    float: left;
+
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -108,7 +108,7 @@ margin: 10.5px 0 0 14px;
 }
 
 .dedc{
-    width: 1220px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -291,7 +291,7 @@ margin: 10.5px 0 0 14px;
 
 .buycar-brand-disan a,
 .buycar-brand-disan-disi a{
-    float: left;
+
     display: inline-block;
     height: 14px;
     font-size: 14px;
@@ -424,8 +424,8 @@ margin: 10.5px 0 0 14px;
 }
 
 .index-channel-new{
-    margin-top:220px;
-    background: #333;
+    margin-top:260px;
+    background: #ffffff;
 }
 
 .index-channel-new-bg{
@@ -442,27 +442,191 @@ margin: 10.5px 0 0 14px;
 }
 
 .index-channel-new-bg li{
+    position: relative;
     width: 300px;
     height: 225px;
     float: left;
 }
 
+.index-channel-new-bg li:hover:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    margin-left: -10px;
+    width: 20px;
+    height: 12px;
+    background-size: 100% 100%;
+}
+/* 第一个 */
 .index-channel-new-bg-b{
     background-image: url(../img/第一种/01.png);
     background-size: 100% 100%;
 }
 
+.index-channel-new-bg-b:hover {
+    background-image: url(../img/第二种/01.jpg);
+}
+
+.index-channel-new-bg-b:hover:after {
+    content: "";
+    background-image: url(../img/第一种/下拉图标/01.png);
+}
+/* 第二个 */
 .index-channel-new-bg-c{
     background-image: url(../img/第一种/02.png);
     background-size: 100% 100%;
 }
 
+.index-channel-new-bg-c:hover {
+    background-image: url(../img/第二种/02.jpg);
+}
+
+.index-channel-new-bg-c:hover:after {
+    content: "";
+    background-image: url(../img/第一种/下拉图标/02.png);
+}
+/* 第三个 */
 .index-channel-new-bg-d{
     background-image: url(../img/第一种/03.jpg);
     background-size: 100% 100%;
 }
 
+.index-channel-new-bg-d:hover {
+    background-image: url(../img/第二种/03.jpg);
+}
+
+.index-channel-new-bg-d:hover:after {
+    content: "";
+    background-image: url(../img/第一种/下拉图标/03.png);
+}
+/* 第四个 */
 .index-channel-new-bg-e{
     background-image: url(../img/第一种/04.png);
     background-size: 100% 100%;
+}
+
+.index-channel-new-bg-e:hover {
+    background-image: url(../img/第二种/01.jpg);
+}
+
+.index-channel-new-bg-e:hover:after {
+    content: "";
+    background-image: url(../img/第一种/下拉图标/01.png);
+}
+
+
+.index-channel-new-bg .incon{
+    display: none;
+    width: 22.5px;
+    height: 10.5px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -10.5px;
+    margin-left: -10px;
+}
+
+.index-channel-car{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.index-channel-carBox-prev{
+    width: 31px;
+    float: left;
+    height: 178.5px;
+    padding-top: 50px;
+}
+
+.index-channel-carBox-prev-a{
+    width: 28px;
+    height: 28px;
+    background: url(../img/第一种/05.png) no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin-top: 21px;
+    cursor: pointer;
+}
+.index-channel-carBox-suan{
+    width: 1138px;
+    height: 178.5px;
+    margin: 0 auto;
+    padding-top: 50px;
+    overflow: hidden;
+    float: left;
+}
+
+.ndex-channel-carList{
+    height: 100%;
+    display: -webkit-box;
+    transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    position: relative;
+    left: 0;
+}
+
+.index-channel-carList{
+    float: left;
+    /* width: 160px; */
+    height: 100%;
+    margin-right: 36px;
+}
+
+.index-channel-carItem {
+    float: left;
+}
+
+.channel-carImg{
+    /* width: 100%; */
+    height: 70px;
+    display: block;
+      
+}
+
+.channel-carName{
+    width: 100%;
+    font-size: 14px;
+    color: #181818;
+    margin-top: 18px;
+    line-height: 14px;
+    text-align: center;
+}
+.index-channel-carItem div:last-child:hover{
+    color: #3cb46d;
+}
+.channel-carprice{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #fa5428;
+    line-height: 14px;
+    margin-top: 10px;
+    text-align: center;;
+}
+
+.index-channel-carBox-prev-b{
+    width: 28px;
+    height: 28px;
+    background: url(../img/第一种/06.png) no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin-top: 21px;
+    cursor: pointer;
+}
+
+.index-carlist-bg{
+    background-color: #f5f5f7;
+}
+
+.index-carlist-title{
+    font-size: 28px;
+    color: #000;
+    width: 1200px;
+    line-height: 28px;
+    margin: 0 auto;
+    padding-top: 52.5px;
 }
