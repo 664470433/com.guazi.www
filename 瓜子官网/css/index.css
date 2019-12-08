@@ -626,7 +626,721 @@ margin: 10.5px 0 0 14px;
     font-size: 28px;
     color: #000;
     width: 1200px;
+    height: 100%;
     line-height: 28px;
     margin: 0 auto;
     padding-top: 52.5px;
+}
+
+.index-carlist{
+    padding-top: 30px;
+    padding-bottom: 17.5px;
+    height: 22.5px;
+}
+
+.index-carlist li{
+    display: inline-block;
+    margin-right: 28px;
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+    line-height: 16px;
+}
+
+.index-carlist span{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.index-carlist .active span{
+    color: #000;
+}
+
+.w1200{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.index-carlist-box{
+    display: block;
+}
+
+.carlist{
+    width: 1220px;
+}
+
+.carlist li{
+    position: relative;
+    float: left;
+    width: 285px;
+    margin-left: 20px;
+    margin-bottom: 19px;
+    background: #fff;
+}
+
+.carlist img{
+    border: none;
+    display: block;
+    width: 285px;
+    height: 193px
+}
+
+.car-info{
+    width: 100%;
+    height: 126px;
+    border: 1px solid rgba(0,0,0,.05);
+    box-sizing: border-box;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.carlist li .t{
+    font-size: 17px;
+    color: #495056;
+    font-weight: 400;
+    padding: 1px 0 6px 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.car-info .t{
+    padding: 20px 20px 6px;
+}
+
+ .t-i{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #a5abb2;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-bottom: 2px; 
+ }
+
+ .icon-pad{
+    display: inline-block;
+    font-size: 12px;
+    width: 14px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 20px;
+ }
+ 
+ .t-price {
+     float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    font-size: 20px;
+    color: #fa5428;
+    padding-left: 4px;
+    overflow: hidden;
+ }
+
+.t-price em {
+    float: left;
+    margin-top: -22px;
+    margin-left: 89px;
+    color: #a5abb2;
+    font-size: 17px;
+ }
+
+ .icon-new{
+    background-image: url(../img/jing.png);
+    background-size:451px 300px;
+    background-position: -36px -100px;
+    line-height: 48px;
+    padding: 0;
+ }
+
+ .icon-new, .icon-sale{
+
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    top: -5px;
+    left: 11px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 8px 0 10px;
+ }
+
+ .index-carmore {
+    padding-top: 22px;
+    padding-bottom: 52.5px;
+    text-align: center;
+    height: 14px;
+}
+
+.index-carmore a{
+    font-size: 14px;
+    color: #495056;
+    line-height: 14px;
+}
+
+.index-carmore .iconbg {
+    background-image: url(../img/jing.png);
+    background-size: 451px 300px;
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    vertical-align: top;
+    margin-left: 10px;
+    background-position: -183px 0;
+}
+
+.channel-operate-title{
+    font-size: 28px;
+    color: #000;
+    width: 1200px;
+    height: 100%;
+    line-height: 28px;
+    margin: 0 auto;
+    padding-top: 52.5px;
+}
+
+.channel-operate-title  h3{
+    font-weight: 400;
+}
+
+.channel-operate-list{
+    width: 1200px;
+    height: 346px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.operate-item-left{
+    width: 227px;
+    height: 346px;
+    background-color: #fff;
+}  
+
+.operate-item-left a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+}
+
+.channel-operate-title{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 52.5px 0 26px;
+    height: 30px;
+}
+
+.channel-operate-title h3{
+    float: left;
+    font-weight: unset;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000;
+}
+
+.channel-operate-list{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 346px;
+}
+
+.operate-item-right{
+    float: right;
+}
+
+.operate-item-right{
+    width: 227px;
+    height: 346px;
+    background-color: #fff;
+}
+
+.operate-item-right a{
+    background-position: 50%;
+    background-color: #f5f5f7;
+}
+
+.operate-item-right a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+}
+
+.operate-item-right img{
+    width: 150px;
+    height: 158px;
+    margin: 30px 0 0 30px;
+}
+
+.operate-item-right .operate-item-text {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.operate-item-text {
+    display: none;
+    font-size: 16px;
+}
+
+.operate-item-text p {
+    margin-bottom: 10px;
+    color: #495056;
+}
+
+.operate-item-text span {
+    color: #f76367;
+}
+
+.operate-item-left{
+    float: left;
+    width: 227px;
+    height: 346px;
+    background-color: #fff;
+}
+
+.operate-item-left a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+    }
+.operate-item-left img{
+    display: block;
+    width: 227px;
+    height: 346px;
+}
+
+.operate-item-center-left{
+    margin-left: 16px;
+}
+
+.operate-item-center-left {
+    float: left;
+    width: 227px;
+    height: 346px;
+    background-color:#fff;
+}
+
+
+.operate-item-center-left a{
+    background-position: 50%;
+    background-color: #f5f5f7;
+}
+
+.operate-item-center-left a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+
+}
+
+.operate-item-center-left img{
+    width: 227px;
+    height: 94px;
+    margin-top: 85px;
+}
+
+.operate-item-center-left.operate-item-text {
+    display: block;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.operate-item-text{
+    font-size: 16px;
+}
+
+.operate-item-text p {
+    margin-bottom: 10px;
+    color: #495056;
+}
+
+.operate-item-text span {
+    color: #f76367;
+}
+
+.operate-item-center-top {
+    width: 470px;
+    height: 165px;
+    margin-left: 16px;
+}
+
+.operate-item-center-top{
+    background-color: #fff;
+}
+
+.operate-item-center-top a{
+    background-position: 50%;
+    background-color: #f5f5f7;
+}
+
+.operate-item-center-top a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+}
+
+.operate-item-center-top img {
+    float: left;
+    width: 263px;
+    height: 89px;
+    margin-top: 38px;
+}
+
+
+.operate-item-center-bottom.active .operate-item-text, 
+.operate-item-center-top.active .operate-item-text {
+    display: block;
+    float: left;
+    padding-top: 54px;
+}
+.operate-item-text{
+    display: none;
+    font-size: 16px;
+
+}
+
+.operate-item-text p {
+    margin-bottom: 10px;
+    color: #495056;
+}
+
+.operate-item-text span {
+    color: #f76367;
+}
+
+.problem {
+    width: 1125px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.problem .problem-tit {
+    font-size: 40px;
+    color: #181818;
+    letter-spacing: 4.25px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 53px;
+    padding-top: 79.5px;
+    padding-bottom: 77.5px;
+}
+
+.problem .problem-list {
+    margin: 0 auto;
+}
+
+.problem .problem-item {
+    width: 500px;
+    float: left;
+    margin-right: 62.5px;
+    margin-left: 62.5px;
+}
+
+.problem .problem-item .problem-item-tit {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3cb46d;
+    letter-spacing: 1.9px;
+    line-height: 18px;
+    margin-bottom: 21px;
+    position: relative;
+    text-indent: 41.5px;
+}
+
+.problem .problem-item .problem-item-con {
+    font-size: 14px;
+    line-height: 27px;
+    color: #181818;
+    width: 439px;
+    text-align: justify;
+    padding-bottom: 23.5px;
+    margin-bottom: 31px;
+    position: relative;
+}
+
+.problem .problem-item {
+    width: 500px;
+    float: left;
+    margin-right: 62.5px;
+    margin-left: 62.5px;
+}
+
+.problem .problem-item:nth-child(2n) {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.problem .problem-item .problem-item-tit:before {
+    content: "";
+    width: 24.5px;
+    height: 21.5px;
+    background: url(../img/11.png);
+    background-size: 100% 100%;
+    margin-right: 17px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+.index-foot-buysell {
+    height: 120px;
+    background-color: #fff;
+    background-image: url(../img/02.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    margin-top: 36px;
+}
+
+.w1200 {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-foot-buysell .w1200 {
+    width: 800px;
+}
+
+.iconbg{
+    background-image: url(../img/jing.png);
+    background-size: 451px 300px;
+}
+
+
+.foot-buysell-tel {
+    width: 382px;
+    font-size: 14px;
+    color: #858d96;
+    text-align: center;
+}
+
+.fl {
+    float: left;
+}
+
+.foot-buysell-tel .iconbg {
+    display: block;
+    width: 382px;
+    height: 30px;
+    margin-top: 33px;
+    margin-bottom: 9px;
+    background-position: 0 -170px;
+}
+
+.foot-buysell-btn {
+    padding-top: 30px;
+}
+
+.fl {
+    float: left;
+}
+
+.foot-btn-buy{
+    float: left;
+    width: 179px;
+    margin-left: 23px;
+    line-height: 64px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.foot-btn-buy,
+.foot-btn-sell {
+    background: #3cb46d;
+}
+
+.foot-btn-buy,
+.foot-btn-sell {
+    float: left;
+    width: 179px;
+    margin-left: 23px;
+    line-height: 64px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.foot-btn-sell {
+    background: #97cf00;
+    margin-left: 11px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.footer {
+    padding: 50px 0 30px;
+    background: #2a2c37;
+}
+
+.company-info {
+    width: 1190px;
+    height: 90px;
+    margin: 0 auto;
+    color: #b8b8b8;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.instructions-guazi-name {
+    width: 1190px;
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.friendly-link, .instructions-guazi-name {
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    width: 102px;
+    height: 102px;
+    background-repeat: no-repeat;
+    background-image: url(../img/12.png);
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 40px;
+    margin-left: 20px;
+}
+
+.phone-email {
+    float: left;
+    width: 378px;
+    padding-left: 30px;
+}
+
+.phone-email p {
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.phone-email p i {
+    padding-right: 18px;
+}
+
+.phone-email p span {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.phone-email p i {
+    padding-right: 18px;
+}
+
+.phone-email p span {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.phone-email p {
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.phone-email p i {
+    padding-right: 18px;
+}
+
+.ewm-box {
+    float: left;
+    width: 85px;
+    height: 105px;
+    margin-top: 4px;
+    margin-right: 30px;
+    text-align: center;
+    display: block;
+}
+
+.bg-old-ewm, .ewm-box img {
+    display: block;
+    width: 85px;
+    height: 85px;
+}
+
+.ewm-box .ewm-tit {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.bg-new-ewm, .bg-old-ewm {
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-old-ewm {
+    background-image: url(../img/14.png);
+}
+
+.ewm-box .ewm-tit {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.ewm-box .ewm-tit-tip {
+    width: 80px;
+    height: 16px;
+    background: #22ac38;
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #fff;
+    display: inline-block;
+    line-height: 16px;
+}
+
+.company-info .basic-info {
+    float: left;
+    width: 390px;
+    padding-left: 20px;
+    background: transparent;
+    margin: 0;
+    overflow: hidden;
+}
+
+.info-link {
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.info-link a {
+    color: #b8b8b8;
+    margin-right: 5px;
 }
