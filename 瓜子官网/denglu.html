@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="./lib/reset/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index2.css">
+</head>
+<body>
+    <div class="pop-box pop-login" id="login1"><form action="#">
+        <div class="pop-close"></div>
+        <p class="pop-tit js-logintitle">瓜子二手车直卖网</p>
+        <ul class="phone-login">
+            <li>
+                <p class="phone-login-tit">手机号码</p>
+                <input name="phone" class="phone-login-input js-phoneNum1" placeholder="">
+            </li>
+            <li>
+                <p class="phone-login-tit">&emsp;验证码</p>
+                <input name="code" class="phone-login-input phone-login-code js-code1" placeholder="">
+                <button class="get-code">获取验证码</button>
+            </li>
+        </ul>
+        <p class="p-error" id="loginError1"></p>
+        <button class="sub-btn " >登录</button>
+        <p class="free-phone">免费咨询400-069-7632</p>
+        <p class="agree-text">登录即视为同意<a href=" data-gzlog=">《用户使用协议》</a>及<a href="./inde.html">《隐私权条款》</a></p>
+
+        <input type="hidden" name="source" value="2">
+        <input type="hidden" name="staticPage" value="1">
+        <input type="hidden" name="callBack" value="">
+    </form></div>
+</body>
+</html>
