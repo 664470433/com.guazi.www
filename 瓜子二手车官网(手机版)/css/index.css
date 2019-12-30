@@ -1,0 +1,33 @@
+html {
+  background-color: #ccc;
+}
+.index-headex {
+  position: relative;
+  width: 100%;
+}
+.head-index {
+  position: absolute;
+  top: 0.06rem;
+  left: 0;
+  z-index: 66;
+  display: flex;
+  width: 100%;
+  height: 0.32rem;
+  padding: 0rem;
+}
+.head-index .diqu {
+  padding: left 0.16rem;
+  padding-right: 0.15rem;
+  font-weight: 300;
+  line-height: 0.32rem;
+  border-right: none;
+}
+.head-index .xiasanjiao {
+  background-image: url(../image/01.png);
+  background-size: 0.75rem auto;
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 0.1rem;
+  margin-left: 0.06rem;
+}
