@@ -1,36 +1,43 @@
 html {
-  background-color: #ccc;
+  /* background-color: #222222; */
 }
-.index-headex {
+body {
+  background: #222222;
+  color: chartreuse;
+}
+.inder-header {
   position: relative;
   width: 100%;
   height: 4.53333333rem;
 }
-.index-headex .head-index {
+header {
   position: absolute;
   top: 0.16rem;
   left: 0;
-  z-index: 88;
+  z-index: 22;
   display: flex;
-  width: 100%;
-  height: 0.85333333rem;
   padding: 0;
-  font-size: 100%;
+  width: 100%;
 }
-.index-headex .head-index .diqu {
-  padding-left: 0.42666667rem;
-  padding-right: 0.4rem;
+header .dizhi {
+  padding-left: .16rem;
+  padding-right: .15rem;
   font-weight: 300;
-  color: #303741;
-  line-height: 0.4rem;
+  color: #ffffff;
+  line-height: .32rem;
   border-right: none;
 }
-.index-headex .head-index .diqu .diqu:before {
-  content: '';
-  background: url(../image/01.png) no-repeat;
-  background-size: 0.26666667rem auto;
-  display: inline-block;
-  width: 0.1rem;
-  height: 0.1rem;
-  margin-left: 0.06rem;
+
+.dizhi::after{
+    content: "";
+    display: inline-block;
+    width: .1rem;
+    height: .1rem;
+    margin-left: .06rem;
+    background-position: 0 -.42rem;
+}
+
+.dizhi::after{
+  background: url(../image/图层1.png) no-repeat;
+  background-size: .75rem auto;
 }
