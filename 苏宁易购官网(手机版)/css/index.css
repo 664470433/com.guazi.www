@@ -1,0 +1,40 @@
+.index-header {
+  width: 15rem;
+  height: 3.52rem;
+  margin: 0 auto;
+}
+.index-header-nav {
+  position: relative;
+  width: 15rem;
+  margin: 0 auto;
+  z-index: 100;
+  font-size: 0.48rem;
+  line-height: 1.76rem;
+}
+.index-header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15rem;
+  height: 3.6rem;
+  overflow: hidden;
+}
+.iindex-header-nav .index-header-bg {
+  position: absolute;
+  bottom: 0;
+  width: 15rem;
+  height: 5.2rem;
+}
+type {
+  position: relative;
+  width: 15rem;
+}
+.content-wrap {
+  font-size: xx-large;
+  width: 13.64rem;
+  height: 1.76rem;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+}
