@@ -1,0 +1,79 @@
+body{
+    background-image: url(../img/我要卖车/01.jpg);
+}
+
+.topnav-left{
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.topnav-left h1 a{
+    background: url(../img/01.png);
+    display: block;
+    width: 55px;
+    height: 55px;
+    background-size: 100% 100%;
+}
+
+.ctyle{
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    height: 34px;
+    padding: 5px 19px;
+    margin: 20.5px 0 0px 63px;
+    border-radius: 2px;
+}
+
+.ctyle-sead{
+color: #fff;
+float: left;
+height: 34px;
+padding: 15px 24px;
+margin: 10.5px 0 0 14px;
+}
+
+.ctyle-sasd i{
+    display: inline-block;
+    width: 6px;
+    height: 3px;
+    background: url(../img/02.png);
+    background-size: 100% 100%;
+}
+
+.duio{
+    float: right;
+    height: 42px;
+    padding-top: 25px;
+}
+.duio a{
+    float: left ;
+    margin: 0 20px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+
+}
+
+.duio span {
+    float: left;
+}
+
+.duio span{
+    color: #fff;
+}
+.duio-xiao{
+    border-bottom: 2px solid #fff;
+}
+
+.duio-xiao-login{
+
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/jing.png);
+    background-position: 0px -568px;
+    background-size: 451px 300px;
+    margin-right: 2px;
+}
