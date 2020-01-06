@@ -1,5 +1,5 @@
-body{
-    background-image: url(../img/我要卖车/01.jpg);
+body {
+    background: url(../img/我要卖车/01.jpg) no-repeat center top;
 }
 
 .topnav-left{
@@ -77,3 +77,672 @@ margin: 10.5px 0 0 14px;
     background-size: 451px 300px;
     margin-right: 2px;
 }
+
+.main-con {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sell-area {
+    width: 1200px;
+    height: 350px;
+}
+
+.sell-area .slogan-1 {
+    color: #fff;
+    font-size: 44px;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.phone-area {
+    position: relative;
+    z-index: 1;
+    width: 975px;
+    height: 56px;
+    padding-top: 38px;
+    padding-left: 225px;
+}
+
+.phone-area .phone-input {
+    float: left;
+    width: 408px;
+    height: 18px;
+    padding: 19px 15px;
+    line-height: 18px;
+    color: #495056;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    border: none;
+    background: #fff;
+}
+
+.phone-area .phone-btn-1, .phone-area .phone-btn-2 {
+    float: left;
+    width: 148px;
+    height: 56px;
+    border: none;
+    font-size: 20px;
+    font-family: "microsoft yahei";
+    color: #fff;
+}
+
+.phone-area .phone-btn-2 {
+    background: #66c675;
+}
+
+.phone-area .phone-btn-1, .phone-area .phone-btn-2 {
+    float: left;
+    width: 148px;
+    height: 56px;
+    border: none;
+    font-size: 20px;
+    font-family: "microsoft yahei";
+    color: #fff;
+}
+
+.new-car-entr {
+    width: 400px;
+    height: 26px;
+    line-height: 26px;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 34px;
+    background-position: -400px -130px;
+}
+
+.new-car-entr, .ser-icon em, .qa-pic, .fix-phone, .deal-day {
+    background-image: url(../img/我要卖车/02.png);
+    background-repeat: no-repeat;
+}
+
+.new-car-entr a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inc-ser {
+    width: 1200px;
+    height: 410px;
+    margin: 1px auto;
+    padding-top: 50px;
+    background: #fff;
+}
+
+.inc-ser .inc-ser-tit {
+    font-size: 32px;
+    color: #22ac38;
+    line-height: 48px;
+    text-align: center;
+}
+
+.inc-ser .inc-ser-txt {
+    font-size: 16px;
+    color: #7a838d;
+    line-height: 30px;
+    text-align: center;
+}
+
+.inc-ser .inc-ser-li {
+    padding-top: 23px;
+    width: 1086px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.inc-ser .inc-ser-li li {
+    width: 362px;
+    height: 255px;
+    float: left;
+}
+ol, ul, li {
+    list-style: none;
+}
+
+.inc-ser .inc-ser-li li .inc-ser-icon {
+    width: 114px;
+    height: 114px;
+    margin: 0 auto 15px;
+    background-repeat: no-repeat;
+}
+
+.inc-ser .inc-ser-li li .inc-ser-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.inc-ser .inc-ser-li li .inc-ser-tip {
+    font-size: 20px;
+    color: #373b3f;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.inc-ser .inc-ser-li li .inc-ser-desc {
+    font-size: 16px;
+    color: #7a838d;
+    line-height: 26px;
+    text-align: center;
+}
+
+.inc-ser .inc-ser-detail-link {
+    display: block;
+    width: 150px;
+    height: 24px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 14px;
+    color: #22ac38;
+    text-align: center;
+}
+
+.inc-ser .inc-ser-detail-link i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../img/我要卖车/04.01.png);
+    vertical-align: -2px;
+    margin-left: 10px;
+}
+
+.recent-deal {
+    width: 1160px;
+    padding: 0 20px;
+}
+
+.con-tit {
+    padding: 33px 0 40px;
+    margin: 0 0 0 139px;
+}
+
+.con-tit p {
+    font-size: 24px;
+    color: #495056;
+    line-height: 44px;
+    text-align: center;
+}
+
+.con-tit i {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    background: #22ac38;
+}
+
+.con-tit i {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    background: #22ac38;
+}
+
+.recent-deal .deal-list .deal-list-wrapper {
+    widows:100%;
+    position: relative;
+}
+
+.recent-deal .deal-list .deal-list-wrapper li {
+    position: relative;
+    float: left;
+    top: 15px;
+    width: 270px;
+    height: 300px;
+    margin: 0 10px 34px;
+}
+
+.recent-deal .deal-list .deal-list-wrapper li img {
+    display: block;
+    width: 270px;
+    height: 180px;
+}
+
+.recent-deal .deal-list {
+    position: relative;
+    top: -15px;
+    width: 1160px;
+    margin: 0 0 0 53px;
+    overflow: hidden;
+}
+
+.recent-deal .deal-list .deal-list-wrapper {
+    width: 99999px;
+    position: relative;
+}
+
+.recent-deal .deal-list .deal-list-wrapper li {
+    position: relative;
+    float: left;
+    top: 15px;
+    width: 270px;
+    height: 300px;
+    margin: 0 10px 34px;
+}
+
+.recent-deal .deal-list .deal-list-wrapper li .deal-p1 {
+    font-size: 16px;
+    color: #495056;
+    padding-top: 15px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.recent-deal .deal-list .deal-list-wrapper li .deal-p2 {
+    font-size: 14px;
+    color: #a5abb2;
+    line-height: 30px;
+}
+
+.recent-deal .deal-list .deal-list-wrapper li .deal-p3 {
+    font-size: 14px;
+    color: #495056;
+    line-height: 30px;
+}
+
+.recent-deal .deal-list .deal-list-wrapper li .deal-p3 em {
+    color: #f95523;
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+.recent-deal .deal-list .deal-list-wrapper li .deal-day {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    background-position: -330px -130px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    padding-top: 7px;
+}
+
+
+.new-car-entr, .ser-icon em, .qa-pic, .fix-phone, .deal-day {
+    background-image: url(../img/我要卖车/02.png);
+}
+
+.recent-deal .deal-more {
+    display: block;
+    width: 168px;
+    height: 40px;
+    margin: 15px auto 50px 558px;
+    text-align: center;
+    line-height: 40px;
+    background: #22ac38;
+    font-size: 16px;
+    color: #fff;
+}
+
+.guazi-qa {
+    height: 535px;
+    background: #f8f8f8;
+    min-width: 1200px;
+}
+
+.guazi-qa .qa-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.con-tit {
+    padding: 33px 0 40px;
+}
+
+.con-tit p {
+    font-size: 24px;
+    color: #495056;
+    line-height: 44px;
+    text-align: center;
+}
+
+.con-tit i {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    background: #22ac38;
+}
+
+.guazi-qa .qa-box .qa-list li {
+    width: 500px;
+    height: 190px;
+    float: left;
+    margin: 0 60px 0 35px;
+}
+
+.guazi-qa .qa-box .qa-list li .qa-pic.qa-pic-1 {
+    background-position: -130px -220px;
+}
+
+.guazi-qa .qa-box .qa-list li .qa-pic {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.qa-pic .qa-pic-1 {
+    background-image: url(../img/我要卖车/02.png);
+}
+
+.guazi-qa .qa-box .qa-list li .qa-con {
+    float: right;
+    width: 425px;
+    margin: 0 0 0 154px;
+    padding-top: 12px;
+}
+
+.guazi-qa .qa-box .qa-list li .qa-con .qa-t {
+    position: relative;
+    display: inline-block;
+    line-height: 36px;
+    padding: 0 15px;
+    background: #ebebeb;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+}
+
+.guazi-qa .qa-box .qa-list li .qa-con .qa-t i {
+    position: absolute;
+    top: 13px;
+    left: -11px;
+    display: block;
+    width: 1px;
+    height: 1px;
+    border: 5px solid transparent;
+    border-right: 5px solid #ebebeb;
+}
+
+.guazi-qa .qa-box .qa-list li .qa-con .qa-txt {
+    font-size: 14px;
+    color: #a5abb2;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.guazi-qa .qa-box .qa-list li .qa-pic.qa-pic-2 {
+    background-position: -190px -220px;
+}
+.guazi-qa .qa-box .qa-list li .qa-pic {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: -33px -20px 21px 270px;
+    border-radius: 50%;
+}
+.new-car-entr, .ser-icon em, .qa-pic, .fix-phone, .deal-day {
+    background-image: url(../img/我要卖车/02.png);
+    background-repeat: no-repeat;
+}
+
+.footer {
+    padding: 50px 0 30px;
+    background: #2a2c37;
+}
+
+.company-info {
+    width: 1190px;
+    height: 90px;
+    margin: 0 auto;
+    color: #b8b8b8;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.instructions-guazi-name {
+    width: 1190px;
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.friendly-link, .instructions-guazi-name {
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    width: 102px;
+    height: 102px;
+    background-repeat: no-repeat;
+    background-image: url(../img/12.png);
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 40px;
+    margin-left: 20px;
+}
+
+.phone-email {
+    float: left;
+    width: 378px;
+    padding-left: 30px;
+}
+
+.phone-email p {
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.phone-email p i {
+    padding-right: 18px;
+}
+
+.phone-email p span {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.phone-email p i {
+    padding-right: 18px;
+}
+
+.phone-email p span {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.phone-email p {
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.phone-email p i {
+    padding-right: 18px;
+}
+
+.ewm-box {
+    float: left;
+    width: 85px;
+    height: 105px;
+    margin-top: 4px;
+    margin-right: 30px;
+    text-align: center;
+    display: block;
+}
+
+.bg-old-ewm, .ewm-box img {
+    display: block;
+    width: 85px;
+    height: 85px;
+}
+
+.ewm-box .ewm-tit {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.bg-new-ewm, .bg-old-ewm {
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-old-ewm {
+    background-image: url(../img/14.png);
+}
+
+.ewm-box .ewm-tit {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.ewm-box .ewm-tit-tip {
+    width: 80px;
+    height: 16px;
+    background: #22ac38;
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #fff;
+    display: inline-block;
+    line-height: 16px;
+}
+
+.company-info .basic-info {
+    float: left;
+    width: 390px;
+    padding-left: 20px;
+    background: transparent;
+    margin: 0;
+    overflow: hidden;
+}
+
+.info-link {
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.info-link a {
+    color: #b8b8b8;
+    margin-right: 5px;
+}
+
+.protect .police {
+    display: inline-block;
+    text-decoration: none;
+    color: #939393;
+    line-height: 28px;
+    padding-left: 24px;
+    position: relative;
+    font-size: 12px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.friendly-link {
+    width: 1100px;
+    padding: 0 0 0 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.friendly-link, .instructions-guazi-name {
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+.link-tit {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 28px;
+    font-size: 16px;
+}
+
+.friendly-link a:hover, .link-tit {
+    color: #666;
+}
+
+.close-box, .open-box {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 16px;
+    height: 9px;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.protect .police:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-position: 0 -62px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.protect .icon-315, .protect .icon-xin, .protect .police:before {
+    background-image: url(../img/15.png);
+    display: inline-block;
+}
+
+.open-box {
+    top: 10px;
+    background-position: -70px -100px;
+}
+
+.friendly-active .open-box, .friendly-link .close-box {
+    display: none;
+}
+
+.close-box {
+    bottom: 10px;
+    background-position: -90px -100px;
+}
+
+.close-box, .open-box {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 16px;
+    height: 9px;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.friendly-link a {
+    color: #666;
+    line-height: 28px;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+
