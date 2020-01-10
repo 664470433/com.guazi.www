@@ -1,0 +1,1516 @@
+.topnav{
+    position: relative;
+    background: url(../img/01.jpg) ;
+    background-size: 1920px 100%;
+    background-position: 50%;
+    height: 340.5px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topnav-left{
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.topnav-left h1 a{
+    background: url(../img/01.png);
+    display: block;
+    width: 55px;
+    height: 55px;
+    background-size: 100% 100%;
+}
+
+.ctyle{
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    height: 34px;
+    padding: 5px 19px;
+    margin: 20.5px 0 0px 63px;
+    border-radius: 2px;
+}
+
+.ctyle-sead{
+color: #fff;
+float: left;
+height: 34px;
+padding: 15px 24px;
+margin: 10.5px 0 0 14px;
+}
+
+.ctyle-sasd i{
+    display: inline-block;
+    width: 6px;
+    height: 3px;
+    background: url(../img/02.png);
+    background-size: 100% 100%;
+}
+
+.duio{
+    float: right;
+    height: 42px;
+    padding-top: 25px;
+}
+.duio a{
+    float: left ;
+    margin: 0 20px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+
+}
+
+.duio span {
+    float: left;
+}
+
+.duio span{
+    color: #fff;
+}
+.duio-xiao{
+    border-bottom: 2px solid #fff;
+}
+
+.duio-xiao-login{
+
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/jing.png);
+    background-position: 0px -568px;
+    background-size: 451px 300px;
+    margin-right: 2px;
+}
+
+.tupian{
+    width: 574px;
+    height: 32px;
+    background: url(../img/03.png);
+    line-height: 100px;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.index-enty{
+    position: relative;
+    top: 195.5px;
+    z-index: 3;
+    height: 298.5px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #dfe3e3;
+    border-top: 0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.dedc{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lineleft{
+    left: -1px
+}
+.lineleft .lineright{
+    width: 1px;
+    height: 29px;
+    position: absolute;
+    top: 0;
+}
+
+.enty-dfiv{
+    position: relative;
+    width: 728px;
+}
+.fl{
+    float: left;
+}
+
+.enty-title{
+    padding-top: 42.5px; 
+    padding-left:42.5px ;
+}
+
+.enty-title a{
+    font-size: 22px;
+    color: #181818;
+    letter-spacing: 0.75px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.enty-title-thtj{
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 12px;
+    background: url(../img/04.png);
+    background-size: 100% 100%;
+    margin: -4px 0 0 10px;
+}
+
+.seach{
+    float: left;
+    margin-top: 135px;
+    margin-left: 170px;
+    width: 700px;
+    height: 66px;
+    font-size: 34px;
+    background: #fff;
+    /* box-shadow: 0 1px 2px 0 rgba(0,0,0,.05); */
+    border-radius: 6px;
+    position: absolute;
+    /* top: -95px;
+    left: 162.5px; */
+    border: 1px solid #ccc;
+}
+
+.index-title{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 574px;
+    height: 32px;
+    background: url(../img/03.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -54.5px;
+
+}
+.seach-box{
+ width: 100%;
+ height: 47px;
+ border: none; 
+}
+.body, textarea, input, button, select, keygen, legend{
+    float: left;
+    width: 70%;
+    height: 44px;
+    margin-top: 7.5px;
+    line-height: 44px;
+    padding-left: 20px; 
+    padding-right: 0;
+    font-size: 18px;
+    border: none;
+
+
+}
+.seach-button{
+    line-height: 51px;
+    margin-top: 3px;
+    margin-right: 3px;
+    height: 51px;
+    width: 105px;
+    padding: 0;
+    background: #3cb46d;
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin: 11px 23px;
+    float: right;
+}
+
+.hsui{
+    width: 725px;
+    height: 231px;
+
+
+}
+
+.buycar-brand,
+.buycar-brand-dier,
+.buycar-brand-disan,
+.buycar-brand-disan-disi{
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.buycar-brand a{
+    float: left;
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 7px 0;
+    line-height: 22px;
+    color: #495056;
+    color: #181818;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.buycar-brand a img{
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    margin-top: -1px;
+    margin-right: 3px;
+}
+
+.buycar-brand-dier{
+    float: left;
+    padding-top: 13px;
+}
+
+.buycar-brand-dier a {
+    float: left;
+    width: 100px;
+    line-height: 22px;
+    color: #495056;
+    color: #181818;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.buycar-brand-dier img{
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    margin-top: -1px;
+    margin-right: 3px;
+}
+
+.buycar-brand-disan{
+    float: left;
+    padding-top: 15.5px;
+    padding-left: 20px;
+    height: 14px;
+}
+
+.buycar-brand-disan a,
+.buycar-brand-disan-disi a{
+
+    display: inline-block;
+    height: 14px;
+    font-size: 14px;
+    color: #181818;
+    line-height: 14px;
+    width: 100px;
+    text-align: center;
+}
+
+.buycar-brand-disan-disi {
+    float: left;
+    padding-top: 23px;
+}
+
+.entry-sellcar{
+    float: right;
+    width: 377.5px;
+    padding-right: 42.5px;
+}
+
+.entry-sellcar a{
+    font-size: 22px;
+    color: #181818;
+    letter-spacing: .75px;
+    line-height: 98px;
+    font-weight: 700;
+}
+.entry-sellcar i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 12px;
+    background: url(../img/04.png);
+    background-size: 100% 100%;
+    margin: -4px 0 0 10px;
+    font-style: normal;
+}
+
+
+.sunhonglei{
+    width: 228.5px;
+    height: 281.5px;
+    background: url(../img/05.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 50px;
+    right: 114px;
+}
+
+.sellcar-show{
+    float: right;
+    position: relative;
+    font-size: 14px;
+    color: #181818;
+    text-align: right;
+    overflow: hidden;
+    height: 55px;
+    line-height: 96px;
+    top: 1.5px
+}
+
+.sellcar-phone{
+    position: relative;
+    width: 378px;
+}
+
+.phone-input{
+    float: left;
+    width: 223px;
+    height: 28px;
+    line-height: 28px;
+    padding: 13px 10px 12px 20px;
+    font-size: 16px;
+    color: #495056;
+    background: #f5f5f7;
+    border-radius: 8px;
+    border: 1px solid #f5f5f7;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.phone-btn-right{
+    width: 114px;
+    line-height: 47px;
+    background: #3cb46d;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    float: right;
+    padding: 8px 1px 2px 2px;
+}
+
+.phone-btn-sell,
+.phone-btn-eval{
+    float: left;
+    width: 188.5px;
+    height: 57px;
+    line-height: 57px;
+    font-size: 16px;
+    color: #3cb46d;
+    border: none;
+    background: #f0fff6;
+    border: 1px solid #3cb46d;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.phone-btn-sell {
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.phone-btn-eval {
+    position: relative;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.phone-btn button:nth-child(2):before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1px;
+    height: 14px;
+    margin-top: 21.5px;
+    display: inline-block;
+    background: #3cb46d;
+}
+
+.index-channel-new{
+    margin-top:260px;
+    background: #ffffff;
+}
+
+.index-channel-new-bg{
+    width: 1200px;
+    height: 225px;
+    top: 554px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.li,ol,ul{
+    list-style: none;
+}
+
+.index-channel-new-bg li{
+    position: relative;
+    width: 300px;
+    height: 225px;
+    float: left;
+}
+
+.index-channel-new-bg li:hover:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    margin-left: -10px;
+    width: 20px;
+    height: 12px;
+    background-size: 100% 100%;
+}
+/* 第一个 */
+.index-channel-new-bg-b{
+    background-image: url(../img/one/01.png);
+    background-size: 100% 100%;
+}
+
+.index-channel-new-bg-b:hover {
+    background-image: url(../img/tow/01.jpg);
+}
+
+.index-channel-new-bg-b:hover:after {
+    content: "";
+    background-image: url(../img/one/xiala/01.png);
+}
+/* 第二个 */
+.index-channel-new-bg-c{
+    background-image: url(../img/one/02.png);
+    background-size: 100% 100%;
+}
+
+.index-channel-new-bg-c:hover {
+    background-image: url(../img/tow/02.jpg);
+}
+
+.index-channel-new-bg-c:hover:after {
+    content: "";
+    background-image: url(../img/one/xiala/02.png);
+}
+/* 第三个 */
+.index-channel-new-bg-d{
+    background-image: url(../img/one/03.jpg);
+    background-size: 100% 100%;
+}
+
+.index-channel-new-bg-d:hover {
+    background-image: url(../img/tow/03.jpg);
+}
+
+.index-channel-new-bg-d:hover:after {
+    content: "";
+    background-image: url(../img/one/xiala/03.png);
+}
+/* 第四个 */
+.index-channel-new-bg-e{
+    background-image: url(../img/one/04.png);
+    background-size: 100% 100%;
+}
+
+.index-channel-new-bg-e:hover {
+    background-image: url(../img/tow/01.jpg);
+}
+
+.index-channel-new-bg-e:hover:after {
+    content: "";
+    background-image: url(../img/one/xiala/01.png);
+}
+
+
+.index-channel-new-bg .incon{
+    display: none;
+    width: 22.5px;
+    height: 10.5px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -10.5px;
+    margin-left: -10px;
+}
+
+.index-channel-car{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.index-channel-carBox-prev{
+    width: 31px;
+    float: left;
+    height: 178.5px;
+    padding-top: 50px;
+}
+
+.index-channel-carBox-prev-a{
+    width: 28px;
+    height: 28px;
+    background: url(../img/one/05.png) no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin-top: 21px;
+    cursor: pointer;
+}
+.index-channel-carBox-suan{
+    width: 1138px;
+    height: 178.5px;
+    margin: 0 auto;
+    padding-top: 50px;
+    overflow: hidden;
+    float: left;
+}
+
+.ndex-channel-carList{
+    height: 100%;
+    display: -webkit-box;
+    transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    position: relative;
+    left: 0;
+}
+
+.index-channel-carList{
+    float: left;
+    /* width: 160px; */
+    height: 100%;
+    margin-right: 36px;
+}
+
+.index-channel-carItem {
+    float: left;
+}
+
+.channel-carImg{
+    /* width: 100%; */
+    height: 70px;
+    display: block;
+      
+}
+
+.channel-carName{
+    width: 100%;
+    font-size: 14px;
+    color: #181818;
+    margin-top: 18px;
+    line-height: 14px;
+    text-align: center;
+}
+.index-channel-carItem div:last-child:hover{
+    color: #3cb46d;
+}
+.channel-carprice{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #fa5428;
+    line-height: 14px;
+    margin-top: 10px;
+    text-align: center;;
+}
+
+.index-channel-carBox-prev-b{
+    width: 28px;
+    height: 28px;
+    background: url(../img/one/06.png) no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin-top: 21px;
+    cursor: pointer;
+}
+
+.index-carlist-bg{
+    background-color: #f5f5f7;
+}
+
+.index-carlist-title{
+    font-size: 28px;
+    color: #000;
+    width: 1200px;
+    height: 100%;
+    line-height: 28px;
+    margin: 0 auto;
+    padding-top: 52.5px;
+}
+
+.index-carlist{
+    padding-top: 30px;
+    padding-bottom: 17.5px;
+    height: 22.5px;
+}
+
+.index-carlist li{
+    display: inline-block;
+    margin-right: 28px;
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+    line-height: 16px;
+}
+
+.index-carlist span{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.index-carlist .active span{
+    color: #000;
+}
+
+.w1200{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.index-carlist-box{
+    display: block;
+}
+
+.carlist{
+    width: 1220px;
+}
+
+.carlist li{
+    position: relative;
+    float: left;
+    width: 285px;
+    margin-left: 20px;
+    margin-bottom: 19px;
+    background: #fff;
+}
+
+.carlist img{
+    border: none;
+    display: block;
+    width: 285px;
+    height: 193px
+}
+
+.car-info{
+    width: 100%;
+    height: 126px;
+    border: 1px solid rgba(0,0,0,.05);
+    box-sizing: border-box;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.carlist li .t{
+    font-size: 17px;
+    color: #495056;
+    font-weight: 400;
+    padding: 1px 0 6px 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.car-info .t{
+    padding: 20px 20px 6px;
+}
+
+ .t-i{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #a5abb2;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-bottom: 2px; 
+ }
+
+ .icon-pad{
+    display: inline-block;
+    font-size: 12px;
+    width: 14px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 20px;
+ }
+ 
+ .t-price {
+     float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    font-size: 20px;
+    color: #fa5428;
+    padding-left: 4px;
+    overflow: hidden;
+ }
+
+.t-price em {
+    float: left;
+    margin-top: -22px;
+    margin-left: 89px;
+    color: #a5abb2;
+    font-size: 17px;
+ }
+
+ .icon-new{
+    background-image: url(../img/jing.png);
+    background-size:451px 300px;
+    background-position: -36px -100px;
+    line-height: 48px;
+    padding: 0;
+ }
+
+ .icon-new, .icon-sale{
+
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    top: -5px;
+    left: 11px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 8px 0 0;
+ }
+
+ .index-carmore {
+    padding-top: 22px;
+    padding-bottom: 52.5px;
+    text-align: center;
+    height: 14px;
+}
+
+.index-carmore a{
+    font-size: 14px;
+    color: #495056;
+    line-height: 14px;
+}
+
+.index-carmore .iconbg {
+    background-image: url(../img/jing.png);
+    background-size: 451px 300px;
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    vertical-align: top;
+    margin-left: 10px;
+    background-position: -183px 0;
+}
+
+.channel-operate-title{
+    font-size: 28px;
+    color: #000;
+    width: 1200px;
+    height: 100%;
+    line-height: 28px;
+    margin: 0 auto;
+    padding-top: 52.5px;
+}
+
+.channel-operate-title  h3{
+    font-weight: 400;
+}
+
+.channel-operate-list{
+    width: 1200px;
+    height: 346px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.operate-item-left{
+    width: 227px;
+    height: 346px;
+    background-color: #fff;
+}  
+
+.operate-item-left a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+}
+
+.channel-operate-title{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 52.5px 0 26px;
+    height: 30px;
+}
+
+.channel-operate-title h3{
+    float: left;
+    font-weight: unset;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000;
+}
+
+.channel-operate-list{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 346px;
+}
+
+.operate-item-right{
+    float: right;
+}
+
+.operate-item-right{
+    width: 227px;
+    height: 346px;
+    background-color: #fff;
+}
+
+.operate-item-right a{
+    background-position: 50%;
+    background-color: #f5f5f7;
+}
+
+.operate-item-right a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+}
+
+.operate-item-right img{
+    width: 150px;
+    height: 158px;
+    margin: 30px 0 0 30px;
+}
+
+.operate-item-right .operate-item-text {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.operate-item-text {
+    display: none;
+    font-size: 16px;
+}
+
+.operate-item-text p {
+    margin-bottom: 10px;
+    color: #495056;
+}
+
+.operate-item-text span {
+    color: #f76367;
+}
+
+.operate-item-left{
+    float: left;
+    width: 227px;
+    height: 346px;
+    background-color: #fff;
+}
+
+.operate-item-left a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+    }
+.operate-item-left img{
+    display: block;
+    width: 227px;
+    height: 346px;
+}
+
+.operate-item-center-left{
+    margin-left: 16px;
+}
+
+.operate-item-center-left {
+    float: left;
+    width: 227px;
+    height: 346px;
+    background-color:#fff;
+}
+
+
+.operate-item-center-left a{
+    background-position: 50%;
+    background-color: #f5f5f7;
+}
+
+.operate-item-center-left a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+
+}
+
+.operate-item-center-left img{
+    width: 227px;
+    height: 94px;
+    margin-top: 85px;
+}
+
+.operate-item-center-left.operate-item-text {
+    display: block;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.operate-item-text{
+    font-size: 16px;
+}
+
+.operate-item-text p {
+    margin-bottom: 10px;
+    color: #495056;
+}
+
+.operate-item-text span {
+    color: #f76367;
+}
+
+.operate-item-center-top {
+    width: 470px;
+    height: 165px;
+    margin-left: 16px;
+}
+
+.operate-item-center-top{
+    float: left;
+    width: 227px;
+    height: 346px;
+    background-color: #fff;
+}
+
+.operate-item-center-top a{
+    background-position: 50%;
+    background-color: #f5f5f7;
+}
+
+.operate-item-center-top a{
+    display: block;
+    width: 483px;
+    height: 168px;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+    margin: 0 0 0 -5px;
+}
+
+.operate-item-center-top img {
+    float: left;
+    width: 263px;
+    height: 89px;
+    margin-top: 38px;
+}
+
+ 
+.operate-item-text {
+    display: block;
+    float: left;
+    padding-top: 54px;
+}
+.operate-item-text{
+    display: none;
+    font-size: 16px;
+
+}
+
+.operate-item-text p {
+    margin-bottom: 10px;
+    color: #495056;
+}
+
+.operate-item-text span {
+    color: #f76367;
+}
+
+.operate-item-center-bottom{
+    width: 470px;
+    height: 165px;
+    margin-left: 16px;
+}
+
+.operate-item-center-bottom{
+    float: left;
+    width: 227px;
+    height: 346px;
+    background-color: #fff;
+}
+
+
+.operate-item-center-bottom {
+    margin-top: 16px;
+}
+
+.operate-item-center-bottom{
+    width: 470px;
+    height: 165px;
+    margin-left: 16px;
+}
+.operate-item-center-bottom a{
+    background-position: 50%;
+    background-color: #f5f5f7;
+}
+
+.operate-item-center-bottom a{
+    display: block;
+    width: 483px;
+    height: 168px;
+    text-decoration: none;
+    transition: box-shadow .4s;
+    overflow: hidden;
+    margin: -184px 0 0 466px;
+}
+
+.operate-item-center-bottom img{
+    float: left;
+    width: 263px;
+    height: 89px;
+    margin-top: 38px;
+}
+
+.operate-item-text {
+    display: block;
+    float: left;
+    padding-top: 54px;
+}
+.operate-item-text{
+    font-size: 16px;
+
+}
+
+.operate-item-text p {
+    margin-bottom: 10px;
+    color: #495056;
+}
+
+.operate-item-text span {
+    color: #f76367;
+}
+.problem {
+    width: 1125px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.problem .problem-tit {
+    font-size: 40px;
+    color: #181818;
+    letter-spacing: 4.25px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 53px;
+    padding-top: 79.5px;
+    padding-bottom: 77.5px;
+}
+
+.problem .problem-list {
+    margin: 0 auto;
+}
+
+.problem .problem-item {
+    width: 500px;
+    float: left;
+    margin-right: 62.5px;
+    margin-left: 62.5px;
+}
+
+.problem .problem-item .problem-item-tit {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3cb46d;
+    letter-spacing: 1.9px;
+    line-height: 18px;
+    margin-bottom: 21px;
+    position: relative;
+    text-indent: 41.5px;
+}
+
+.problem .problem-item .problem-item-con {
+    font-size: 14px;
+    line-height: 27px;
+    color: #181818;
+    width: 439px;
+    text-align: justify;
+    padding-bottom: 23.5px;
+    margin-bottom: 31px;
+    position: relative;
+}
+
+.problem .problem-item {
+    width: 500px;
+    float: left;
+    margin-right: 62.5px;
+    margin-left: 62.5px;
+}
+
+.problem .problem-item:nth-child(2n) {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.problem .problem-item .problem-item-tit:before {
+    content: "";
+    width: 24.5px;
+    height: 21.5px;
+    background: url(../img/11.png);
+    background-size: 100% 100%;
+    margin-right: 17px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+.index-foot-buysell {
+    height: 120px;
+    background-color: #fff;
+    background-image: url(../img/02.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    margin-top: 36px;
+}
+
+.w1200 {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-foot-buysell .w1200 {
+    width: 800px;
+}
+
+.iconbg{
+    background-image: url(../img/jing.png);
+    background-size: 451px 300px;
+}
+
+
+.foot-buysell-tel {
+    width: 382px;
+    font-size: 14px;
+    color: #858d96;
+    text-align: center;
+}
+
+.fl {
+    float: left;
+}
+
+.foot-buysell-tel .iconbg {
+    display: block;
+    width: 382px;
+    height: 30px;
+    margin-top: 33px;
+    margin-bottom: 9px;
+    background-position: 0 -170px;
+}
+
+.foot-buysell-btn {
+    padding-top: 30px;
+}
+
+.fl {
+    float: left;
+}
+
+.foot-btn-buy{
+    float: left;
+    width: 179px;
+    margin-left: 23px;
+    line-height: 64px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.foot-btn-buy,
+.foot-btn-sell {
+    background: #3cb46d;
+}
+
+.foot-btn-buy,
+.foot-btn-sell {
+    float: left;
+    width: 179px;
+    margin-left: 23px;
+    line-height: 64px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.foot-btn-sell {
+    background: #97cf00;
+    margin-left: 11px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.footer {
+    padding: 50px 0 30px;
+    background: #2a2c37;
+}
+
+.company-info {
+    width: 1190px;
+    height: 90px;
+    margin: 0 auto;
+    color: #b8b8b8;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.instructions-guazi-name {
+    width: 1190px;
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.friendly-link, .instructions-guazi-name {
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    width: 102px;
+    height: 102px;
+    background-repeat: no-repeat;
+    background-image: url(../img/12.png);
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 40px;
+    margin-left: 20px;
+}
+
+.phone-email {
+    float: left;
+    width: 378px;
+    padding-left: 30px;
+}
+
+.phone-email p {
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.phone-email p i {
+    padding-right: 18px;
+}
+
+.phone-email p span {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.phone-email p i {
+    padding-right: 18px;
+}
+
+.phone-email p span {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.phone-email p {
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.phone-email p i {
+    padding-right: 18px;
+}
+
+.ewm-box {
+    float: left;
+    width: 85px;
+    height: 105px;
+    margin-top: 4px;
+    margin-right: 30px;
+    text-align: center;
+    display: block;
+}
+
+.bg-old-ewm, .ewm-box img {
+    display: block;
+    width: 85px;
+    height: 85px;
+}
+
+.ewm-box .ewm-tit {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.bg-new-ewm, .bg-old-ewm {
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-old-ewm {
+    background-image: url(../img/14.png);
+}
+
+.ewm-box .ewm-tit {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.ewm-box .ewm-tit-tip {
+    width: 80px;
+    height: 16px;
+    background: #22ac38;
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #fff;
+    display: inline-block;
+    line-height: 16px;
+}
+
+.company-info .basic-info {
+    float: left;
+    width: 390px;
+    padding-left: 20px;
+    background: transparent;
+    margin: 0;
+    overflow: hidden;
+}
+
+.info-link {
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.info-link a {
+    color: #b8b8b8;
+    margin-right: 5px;
+}
+
+.protect .police {
+    display: inline-block;
+    text-decoration: none;
+    color: #939393;
+    line-height: 28px;
+    padding-left: 24px;
+    position: relative;
+    font-size: 12px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.friendly-link {
+    width: 1100px;
+    padding: 0 0 0 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.friendly-link, .instructions-guazi-name {
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+.link-tit {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 28px;
+    font-size: 16px;
+}
+
+.friendly-link a:hover, .link-tit {
+    color: #666;
+}
+
+.close-box, .open-box {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 16px;
+    height: 9px;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.protect .police:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-position: 0 -62px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.protect .icon-315, .protect .icon-xin, .protect .police:before {
+    background-image: url(../img/15.png);
+    display: inline-block;
+}
+
+.open-box {
+    top: 10px;
+    background-position: -70px -100px;
+}
+
+.friendly-active .open-box, .friendly-link .close-box {
+    display: none;
+}
+
+.close-box {
+    bottom: 10px;
+    background-position: -90px -100px;
+}
+
+.close-box, .open-box {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 16px;
+    height: 9px;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.friendly-link a {
+    color: #666;
+    line-height: 28px;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 12px;
+}
+
